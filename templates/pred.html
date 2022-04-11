@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+<html>
+  <body>
+    <p></p>
+    {% if img_path %}
+      <div>
+         <img src="{{ img_path }}" style="margin-top: 10px; vertical-align: bottom; width: 400px;">
+      </div>
+      <p><b>Result of Prediction</b> : {{ s1 }}</p>
+      <p><b>Accuracy</b> :  {{ s2 }}%</p>
+    {% endif %}
+  </body>
+</html>
