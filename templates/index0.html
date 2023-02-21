@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Upload page</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body class="page--index">
+    <header class="header">
+      <a href="/" class="header--logo">A.I</a>
+    </header>
+    <section class="main">
+        <form method="post" enctype="multipart/form-data" action="/upload_file">
+          <div class="select">
+           <label for="preview">
+             <div class="main--preview">
+             <img class="img--preview">
+               <span>select</span>
+             </div>
+             <input id="preview" name="file" type="file" accept="image/*" required="">
+           </label>
+         </div>
+         <div class="submit">
+           <input type="submit" id="submitbtn" value="" class="main-btn-submit">
+         </div>
+        </form>
+    </section>
+    <footer>
+　　　　
+    </footer>
+    <script src="../static/js/preview.js">
+    </script>
+  </body>
+</html>

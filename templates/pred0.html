@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Result</title>
+    <link rel="stylesheet" href="../static/css/style1.css">
+  </head>
+  <body>
+    <header class="header">
+      <a href="/" class="header--logo">A.I</a>
+    </header>
+    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+    <div>
+      <p><b>Result of Prediction</b> : {{ l1 }}</p>
+      <p><b>Accuracy</b> :  {{ a1 }}%</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    <script type="text/javascript">
+    var l1 = {{l1|tojson}};
+    var a1 = {{a1|tojson}};
+    var l2 = {{l2|tojson}};
+    var a2 = {{a2|tojson}};
+    var l3 = {{l3|tojson}};
+    var a3 = {{a3|tojson}};
+    var l4 = {{l4|tojson}};
+    var a4 = {{a4|tojson}};
+    var l5 = {{l5|tojson}};
+    var a5 = {{a5|tojson}};
+    </script>
+    <script src="../static/js/graph.js"></script>
+  </body>
+
+</html>

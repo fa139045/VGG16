@@ -1,0 +1,120 @@
+.header{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10vw;
+  max-height: 50px;
+  margin: 0 9% 0 4%;
+  background: #fff;
+}
+
+.header .header--logo {
+    display: block;
+    width: 10vw;
+    max-width: 50px;
+    height: 10vw;
+    max-height: 50px;
+    overflow: hidden;
+    font-size: 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: url(../images/logo--header.png) no-repeat center center;
+    background-size: contain;
+}
+
+.main {
+    position: relative;
+    height: 70vw;
+    width: 100%;
+    text-align: center;
+    background:linear-gradient(to top, rgba(255, 255, 255, 0.678) 0%,rgba(0, 0, 0, 0.822) 100%);
+    background-size: 70vw;
+}
+
+.select{
+  position: relative;
+  height: 45vw;
+  width: 100%;
+  text-align: center;
+}
+
+.submit{
+  position: relative;
+  height: 25vw;
+  width: 100%;
+  text-align: center;
+}
+
+label {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    width: 40vw;
+    max-width: 340px;
+    height: 40vw;
+    max-height: 340px;
+    color: #707486;
+    border-radius: 50%;
+    background: url(../images/btn-camera.png) no-repeat center;
+    background-size: 40vw 40vw;
+}
+
+.main--preview{
+  width: 40vw;
+  max-width: 340px;
+  height: 40vw;
+  max-height: 340px;
+  border-radius: 50%;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img--preview {
+    width: 40vw;
+    max-width: 340px;
+    height: 40vw;
+    max-height: 340px;
+    border-radius: 50%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body.page--index .main .main--preview span{
+    display: block;
+    position: absolute;
+    top: 350px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    font-size: 3rem;
+    font-weight: normal;
+    color: #707486;
+}
+
+body.page--index .main label input[type=file] {
+    display: none;
+}
+
+.main-btn-submit{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+  width: 15vw;
+  max-width: 150px;
+  height: 15vw;
+  max-height: 150px;
+  border-radius: 50%;
+  background: url(../images/btn-send.png) no-repeat center;
+  background-size: 15vw 15vw;
+}

@@ -1,0 +1,35 @@
+.header{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10vw;
+  max-height: 50px;
+  margin: 0 9% 0 4%;
+  background: #fff;
+}
+
+.header .header--logo {
+    display: block;
+    width: 10vw;
+    max-width: 50px;
+    height: 10vw;
+    max-height: 50px;
+    overflow: hidden;
+    font-size: 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: url(../images/logo--header.png) no-repeat center center;
+    background-size: contain;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vw;
+    width: 100%;
+    text-align: center;
+    background:linear-gradient(to top, rgba(255, 255, 255, 0.678) 0%,rgba(0, 0, 0, 0.822) 100%);
+    background-size: 60vw;
+}
