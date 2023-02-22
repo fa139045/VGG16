@@ -3,10 +3,10 @@ window.onload = function () {
 
 var options = {
 	title: {
-		text: "Desktop OS Market Share in 2017"
+		text: "The result of predict"
 	},
 	subtitles: [{
-		text: "As of November, 2017"
+		text: ""
 	}],
 	animationEnabled: true,
 	data: [{
